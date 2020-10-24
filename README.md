@@ -38,3 +38,9 @@ There are two endpoints you can consume with url http://localhost:5000/api/{endp
  
  - "helloworld": Accepting GET method only and retrieves a "Hello World!" message in json format.
  - "pokemon": Accepting GET method only and retrieves a Pokémon list according to third party service from [PokéApi](https://pokeapi.co/).
+ - "pokemon/{name_or_id}": Accepting GET method only and retrieves information of specified pokemon by Pokedex ID or name.
+    Examples:
+    ```
+    http://localhost:5000/api/pokemon/1
+    http://localhost:5000/api/pokemon/mewtwo
+    ```
