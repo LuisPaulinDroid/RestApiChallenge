@@ -3,6 +3,7 @@ import os
 import sys
 import unittest
 from flask import current_app
+from requests import codes
 
 # Adding project root to python interpreter sys.path to enable
 # imports searching
@@ -24,7 +25,7 @@ class TestHelloworldController(BaseTestCase):
             data = json.loads(response.data.decode())
 
             # Response as expected
-            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.status_code, codes.ok)
             self.assertTrue(response.content_type == 'application/json')
             self.assertTrue(data['message'] == 'Hello World!')
 

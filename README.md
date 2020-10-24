@@ -4,16 +4,16 @@ This project demostrates basic implementation of a REST API using Python3 with F
 
 ## Installing and running application
 
-This project can be run as a container based on the Dockerfile included as the image in order to facilitate environment setup process.
+This project can be run as a container based on the Dockerfile included as the image in order to facilitate the environment setup process.
 
 ### Prerequisites
 
-- Docker 19.03.12 version or later. You can folow the instructions in official site to [get Docker](https://docs.docker.com/get-docker/) in any supported OS. 
+- Docker 19.03.12 version or later. You can follow the instructions in the official site to [get Docker](https://docs.docker.com/get-docker/) in any supported OS. 
 
 ### Run application
 
 1. Clone or download this project from [GitHub](https://github.com/LuisPaulinDroid/RestApiChallenge)
-2. Follow the steps in your Docker instalation to build an image based on the Dockerfile included in the project. (The following steps are for Ubuntu):
+2. Follow the steps in your Docker installation to build an image based on the Dockerfile included in the project. (The following steps are for Ubuntu):
   ```
   # Navigate to the downloaded folder
   cd /path/to/RestApiChallenge
